@@ -6,5 +6,7 @@ if (99 >= number and 10 <= number): # Обработка исключений
     units = number % 10 # Нахождение единиц
     print(f" Десятки: {tens}")
     print(f" Единицы: {units}")
+    print("ghb")
+
 
 
