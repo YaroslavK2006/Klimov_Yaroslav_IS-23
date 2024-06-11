@@ -1,5 +1,6 @@
 # В матрице найти сумму элементов второй половины матрицы.
 def sum_second_half(matrix):
+    # Определяются количество строк и столбцов в матрице
     rows = len(matrix)
     cols = len(matrix[0])
 
@@ -8,9 +9,10 @@ def sum_second_half(matrix):
 
     half_rows = rows // 2
     second_half_sum = 0
-
+ # Перебор элементов второй половины матрицы
     for i in range(half_rows, rows):
         for j in range(cols):
+            # Суммирование элементов второй половины матрицы
             second_half_sum += matrix[i][j]
 
     return second_half_sum
