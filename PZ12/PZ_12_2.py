@@ -2,14 +2,12 @@
 #библиотеку string.
 #Строка: --msg-template="$FileDir$\{path}:{line}:{column}:{C}:({symbol}){msg}"
 
-import string
+import string # Импортируем модуль string
 
-# Заданная строка
 s = '--msg-template="$FileDir$\\{path}:{line}:{column}:{C} ({symbol}){msg}"'
 
-# Используем списковое включение и генератор для извлечения символов пунктуации
+# Создаем список символов пунктуации из строки s
 punctuation_chars = [char for char in s if char in string.punctuation]
 
-# Выводим результат
 print("Символы пунктуации из заданной строки:")
 print(''.join(punctuation_chars))
