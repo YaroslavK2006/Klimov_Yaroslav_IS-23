@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390fd345-6041-4991-b763-c5c5d117ea07" name="Changes" comment="add PZ_9">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ11/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ11/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ11/text18-11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ14/1857_year.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ14/Dostoevsky.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ16/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/_Климов ПЗ11_Основы_алгоритмизации_и_программирования.docx.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ11/PZ_11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ11/PZ_11_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ11/PZ_11_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ11/PZ_11_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ14/PZ_14_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ14/PZ_14_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ15/командировочные_расходы.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718094551361</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add PZ_9">
+      <option name="closed" value="true" />
+      <created>1719032972791</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719032972791</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

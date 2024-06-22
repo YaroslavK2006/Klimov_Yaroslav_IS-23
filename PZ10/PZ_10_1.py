@@ -13,10 +13,8 @@ magaziny = {'Магнит': {'молоко', 'соль', 'сахар', 'пече
 magaziny_bez_sol = {magazin for magazin, tovary in magaziny.items() if 'соль' not in tovary}
 print(f'1. Нельзя приобрести соль в: {", ".join(magaziny_bez_sol)}.')
 
-# Извлекаются магазины, где можно приобрести молоко, печенье и сыр одновременно
 magaziny_s_molokom_pechenem_syrom = {magazin for magazin, tovary in magaziny.items() if {'молоко', 'печенье', 'сыр'}.issubset(tovary)}
 print(f'2. Можно приобрести молоко, печенье и сыр в: {", ".join(magaziny_s_molokom_pechenem_syrom)}.')
 
-# Извлекаются магазины, где можно приобрести мясо и молоко одновременно
 magaziny_s_myasom_i_molokom = {magazin for magazin, tovary in magaziny.items() if {'мясо', 'молоко'}.issubset(tovary)}
 print(f'3. Можно приобрести мясо и молоко в: {", ".join(magaziny_s_myasom_i_molokom)}.')
