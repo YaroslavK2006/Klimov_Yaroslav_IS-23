@@ -2,11 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/PZ11/11.3.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PZ11/11.4.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PZ11/11_2.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PZ11/PZ_11_2.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PZ11/output.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/PZ11/shortest_line.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PZ11/text18-11.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PZ14/14_1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PZ14/1857_year.txt" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/PZ14/Dostoevsky.txt" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
