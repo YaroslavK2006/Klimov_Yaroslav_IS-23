@@ -6,13 +6,13 @@ from tkinter import messagebox
 
 def validate_password(password):
     """Validate the password length."""
-    if len(password) < 8:
-        return False
-    return True
+    if len(password) < 8: # Проверяет длина пароля меньше 8 символов
+        return False # Если условие истинно функция возвращает False
+    return True # Если условие ложно функция возвращает True
 
 def validate_password_confirmation(password, confirmation):
     """Validate the password confirmation."""
-    if password != confirmation:
+    if password != confirmation: # Проверяет пароль
         return False
     return True
 
@@ -44,15 +44,13 @@ def submit_form():
     else:
         messagebox.showinfo("Success", "The form has been submitted successfully.")
 
-# Создайте основное окно
-root = tk.Tk()
+root = tk.Tk() #Создает основное окно приложения.
 root.title("Contacts")
 
-# Создайте метки и поля ввода
-first_name_label = tk.Label(root, text="First Name ")
-first_name_label.pack()
-first_name_entry = tk.Entry(root)
-first_name_entry.pack()
+first_name_label = tk.Label(root, text="First Name ") # Создает метку для поля имени
+first_name_label.pack() # Добавляет метку в окно
+first_name_entry = tk.Entry(root) # Создает поле ввода для имени
+first_name_entry.pack() # Добавляет поле ввода в окно
 
 last_name_label = tk.Label(root, text="Last Name ")
 last_name_label.pack()
@@ -79,9 +77,7 @@ confirmation_label.pack()
 confirmation_entry = tk.Entry(root, show="*")
 confirmation_entry.pack()
 
-# Создайте кнопку отправки
-submit_button = tk.Button(root, text="Sign Up", command=submit_form)
-submit_button.pack()
+submit_button = tk.Button(root, text="Sign Up", command=submit_form) # Создает кнопку с текстом "Регистрация" которая вызывает функцию submit_form при клике
+submit_button.pack() # Добавляет кнопку в окно
 
-# Начните основной цикл
 root.mainloop()
