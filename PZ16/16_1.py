@@ -2,8 +2,7 @@
 # метод, который выводит информацию о товаре в формате "Название: название,
 # Цена: цена, Количество: кол-во"
 
-
-class Product:
+class Product: # Определение класса Product
     def __init__(self, name, price, quantity):
         self.name = name
         self.price = price
@@ -15,8 +14,6 @@ class Product:
               f" Количество: {self.quantity}")
 
 
-# Создаем объект класса "Товар"
-product = Product("Apple", 10.99, 5)
+product = Product("Apple", 1500, 5) # Создание объекта класса Product
 
-# Выводим информацию о товаре
-product.display_info()
+product.display_info() # Вызов метода display_info

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390fd345-6041-4991-b763-c5c5d117ea07" name="Changes" comment="add PZ_9">
-      <change afterPath="$PROJECT_DIR$/PZ15/expenses.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ17/17_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ17/17_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ16/16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ16/16_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ16/16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ16/16_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.17_2">
+  <component name="RunManager" selected="Python.16_1">
     <configuration name="16_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
@@ -209,10 +208,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16_1" />
         <item itemvalue="Python.17_2" />
         <item itemvalue="Python.PZ_3_2" />
         <item itemvalue="Python.17_1" />
-        <item itemvalue="Python.16_1" />
         <item itemvalue="Python.16_2" />
       </list>
     </recent_temporary>
@@ -537,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719145840361</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add PZ_9">
+      <option name="closed" value="true" />
+      <created>1719152979108</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719152979108</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
