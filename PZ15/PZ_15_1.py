@@ -5,11 +5,10 @@
 
 import sqlite3
 
-# Создание соединения с базой данных
-conn = sqlite3.connect('expenses.db')
+conn = sqlite3.connect('expenses.db') # Подключение к базе данных 'expenses.db'
 cursor = conn.cursor()
 
-# Создание таблицы Статьи расходов
+# # Создание таблицы
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS expenses (
     id INTEGER PRIMARY KEY,
@@ -23,7 +22,6 @@ CREATE TABLE IF NOT EXISTS expenses (
 )
 ''')
 
-# Функция для добавления новой записи в таблицу
 def add_expense():
     order_number = int(input("Введите номер приказа: "))
     employee_name = input("Введите фамилию сотрудника: ")
@@ -39,14 +37,15 @@ def add_expense():
     ''', (order_number, employee_name, destination, payment, advance, expense_type, expense_amount))
     conn.commit()
 
-# Функция для поиска записи в таблице
 def search_expense():
-    order_number = int(input("Введите номер приказа для поиска: "))
+    order_number = int(input("Введите номер приказа для поиска: ")) # Получение номера приказа для поиска
     cursor.execute('''
         SELECT * FROM expenses
         WHERE order_number = ?
     ''', (order_number,))
-    result = cursor.fetchone()
+    result = cursor.fetchone() # Получение результата запроса
+
+    # Если запись найдена вывод ее данных
     if result:
         print("Найденная запись:")
         print(f"№ приказа: {result[1]}")
@@ -59,24 +58,23 @@ def search_expense():
     else:
         print("Запись не найдена.")
 
-# Функция для удаления записи из таблицы
 def delete_expense():
-    order_number = int(input("Введите номер приказа для удаления: "))
+    order_number = int(input("Введите номер приказа для удаления: ")) # # Получение номера приказа для удаления
     cursor.execute('''
         DELETE FROM expenses
         WHERE order_number = ?
     ''', (order_number,))
-    conn.commit()
+    conn.commit() # Сохранение изменений в базе данных
     print("Запись успешно удалена.")
 
-# Функция для редактирования записи в таблице
 def edit_expense():
-    order_number = int(input("Введите номер приказа для редактирования: "))
+    order_number = int(input("Введите номер приказа для редактирования: ")) # Получение номера приказа для редактирования
     cursor.execute('''
         SELECT * FROM expenses
         WHERE order_number = ?
     ''', (order_number,))
-    result = cursor.fetchone()
+    result = cursor.fetchone() # Получение результата запроса
+    # Если запись найдена, вывод ее данных
     if result:
         print("Найденная запись:")
         print(f"№ приказа: {result[1]}")
@@ -87,6 +85,7 @@ def edit_expense():
         print(f"Вид расходов: {result[6]}")
         print(f"Сумма расходов: {result[7]}")
 
+        # Получение от пользователя новых значений для редактирования
         new_order_number = int(input("Введите новый номер приказа (оставьте пустым, если не изменяется): "))
         if new_order_number:
             cursor.execute('''
@@ -136,12 +135,12 @@ def edit_expense():
                 SET expense_amount = ?
                 WHERE order_number = ?
             ''', (new_expense_amount, order_number))
-        conn.commit()
+        conn.commit() # Сохранение изменений в базе данных
         print("Запись успешно отредактирована.")
     else:
         print("Запись не найдена.")
 
-# Главное меню программы
+# Основной цикл программы
 while True:
     print("\n1. Добавить запись")
     print("2. Поиск записи")
@@ -163,5 +162,4 @@ while True:
     else:
         print("Неверный выбор. Пожалуйста, выберите одну из доступных операций.")
 
-# Закрытие соединения с базой данных
 conn.close()
