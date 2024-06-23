@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390fd345-6041-4991-b763-c5c5d117ea07" name="Changes" comment="add PZ_9">
+      <change afterPath="$PROJECT_DIR$/PZ16/16_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ16/16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ16/16_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ16/16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ16/16_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     "Python.14_1.executor": "Run",
     "Python.16_1.executor": "Run",
     "Python.16_2.executor": "Run",
+    "Python.16_3.executor": "Run",
     "Python.17_1.executor": "Run",
     "Python.17_2.executor": "Run",
     "Python.PZ_10_1.executor": "Run",
@@ -64,7 +65,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "two.files.diff.last.used.file": "C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db"
   },
   "keyToStringList": {
@@ -73,7 +74,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.16_1">
+  <component name="RunManager" selected="Python.16_3">
     <configuration name="16_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
@@ -118,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ17" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ17/17_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ16/16_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16_3" />
+        <item itemvalue="Python.16_2" />
         <item itemvalue="Python.16_1" />
         <item itemvalue="Python.17_2" />
         <item itemvalue="Python.PZ_3_2" />
-        <item itemvalue="Python.17_1" />
-        <item itemvalue="Python.16_2" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719152979108</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add PZ_9">
+      <option name="closed" value="true" />
+      <created>1719156235960</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719156235960</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
