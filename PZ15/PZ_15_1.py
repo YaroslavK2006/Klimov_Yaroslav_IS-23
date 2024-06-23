@@ -5,7 +5,7 @@
 
 import sqlite3
 
-conn = sqlite3.connect('expenses.db') # Подключение к базе данных 'expenses.db'
+conn = sqlite3.connect('expenses.db') # Подключение к базе данных expenses.db
 cursor = conn.cursor()
 
 #Создание таблицы
@@ -59,7 +59,7 @@ def search_expense():
         print("Запись не найдена.")
 
 def delete_expense():
-    order_number = int(input("Введите номер приказа для удаления: ")) # # Получение номера приказа для удаления
+    order_number = int(input("Введите номер приказа для удаления: ")) # Получение номера приказа для удаления
     cursor.execute('''
         DELETE FROM expenses
         WHERE order_number = ?
