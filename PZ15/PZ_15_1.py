@@ -8,7 +8,7 @@ import sqlite3
 conn = sqlite3.connect('expenses.db') # Подключение к базе данных 'expenses.db'
 cursor = conn.cursor()
 
-# # Создание таблицы
+#Создание таблицы
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS expenses (
     id INTEGER PRIMARY KEY,
