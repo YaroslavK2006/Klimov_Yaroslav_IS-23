@@ -45,6 +45,7 @@ def search_expense():
     ''', (order_number,))
     result = cursor.fetchone() # Получение результата запроса
 
+
     # Если запись найдена вывод ее данных
     if result:
         print("Найденная запись:")
@@ -74,6 +75,8 @@ def edit_expense():
         WHERE order_number = ?
     ''', (order_number,))
     result = cursor.fetchone() # Получение результата запроса
+
+
     # Если запись найдена, вывод ее данных
     if result:
         print("Найденная запись:")
@@ -85,51 +88,74 @@ def edit_expense():
         print(f"Вид расходов: {result[6]}")
         print(f"Сумма расходов: {result[7]}")
 
+
         # Получение от пользователя новых значений для редактирования
-        new_order_number = int(input("Введите новый номер приказа (оставьте пустым, если не изменяется): "))
-        if new_order_number:
+        new_order_number = input("Введите новый номер приказа (оставьте пустым, если не изменяется): ")
+        if new_order_number.strip(): # Проверяем ввел ли пользователь новое значение для номера приказа
+            new_order_number = int(new_order_number)
             cursor.execute('''
                 UPDATE expenses
                 SET order_number = ?
                 WHERE order_number = ?
             ''', (new_order_number, order_number))
+        else:
+            new_order_number = order_number # Если пользователь не ввел новое значение, используем старое
+
         new_employee_name = input("Введите новую фамилию сотрудника (оставьте пустым, если не изменяется): ")
-        if new_employee_name:
+        if new_employee_name.strip(): # Проверяем ввел ли пользователь новое значение для фамилии сотрудника
             cursor.execute('''
                 UPDATE expenses
                 SET employee_name = ?
                 WHERE order_number = ?
             ''', (new_employee_name, order_number))
+        else:
+            new_employee_name = result[2]
+
         new_destination = input("Введите новое место командировки (оставьте пустым, если не изменяется): ")
-        if new_destination:
+        if new_destination.strip(): # Проверяем ввел ли пользователь новое значение для места командировки
             cursor.execute('''
                 UPDATE expenses
                 SET destination = ?
                 WHERE order_number = ?
             ''', (new_destination, order_number))
-        new_payment = float(input("Введите новую сумму оплаты (оставьте пустым, если не изменяется): "))
-        if new_payment:
+        else:
+            new_destination = result[3]
+
+        new_payment = input("Введите новую сумму оплаты (оставьте пустым, если не изменяется): ")
+        if new_payment.strip(): # Проверяем ввел ли пользователь новое значение для суммы оплаты
+            new_payment = float(new_payment)
             cursor.execute('''
                 UPDATE expenses
                 SET payment = ?
                 WHERE order_number = ?
             ''', (new_payment, order_number))
-        new_advance = float(input("Введите новую сумму аванса (оставьте пустым, если не изменяется): "))
-        if new_advance:
+        else:
+            new_payment = result[4]
+
+        new_advance = input("Введите новую сумму аванса (оставьте пустым, если не изменяется): ")
+        if new_advance.strip(): # Проверяем ввел ли пользователь новое значение для суммы аванса
+            new_advance = float(new_advance)
             cursor.execute('''
                 UPDATE expenses
                 SET advance = ?
                 WHERE order_number = ?
             ''', (new_advance, order_number))
+        else:
+            new_advance = result[5]
+
         new_expense_type = input("Введите новый вид расходов (оставьте пустым, если не изменяется): ")
-        if new_expense_type:
+        if new_expense_type.strip(): # Проверяем ввел ли пользователь новое значение для вида расходов
             cursor.execute('''
                 UPDATE expenses
                 SET expense_type = ?
                 WHERE order_number = ?
             ''', (new_expense_type, order_number))
-        new_expense_amount = float(input("Введите новую сумму расходов (оставьте пустым, если не изменяется): "))
-        if new_expense_amount:
+        else:
+            new_expense_type = result[6]
+
+        new_expense_amount = input("Введите новую сумму расходов (оставьте пустым, если не изменяется): ")
+        if new_expense_amount.strip(): # Проверяем ввел ли пользователь новое значение для суммы расходов
+            new_expense_amount = float(new_expense_amount)
             cursor.execute('''
                 UPDATE expenses
                 SET expense_amount = ?
@@ -139,6 +165,7 @@ def edit_expense():
         print("Запись успешно отредактирована.")
     else:
         print("Запись не найдена.")
+
 
 # Основной цикл программы
 while True:
@@ -162,4 +189,4 @@ while True:
     else:
         print("Неверный выбор. Пожалуйста, выберите одну из доступных операций.")
 
-conn.close()
+conn.close() # Закрытие соединения с базой данных
