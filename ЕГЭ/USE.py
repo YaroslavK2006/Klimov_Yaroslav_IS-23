@@ -15,9 +15,9 @@ for i in range(n):
     for j in range(i+1, n):
         if numbers[i] > numbers[j] and (numbers[i] + numbers[j]) % m == 0: # Проверяем что numbers[i] > numbers[j] и сумма делится на m
             print(f"Найдена пара: {numbers[i]} {numbers[j]}")
-            if max_sum < numbers[i] + numbers[j]:
-                max_sum = numbers[i] + numbers[j]
-                max_pair = (numbers[i], numbers[j])
+            if max_sum < numbers[i] + numbers[j]: # Если сумма больше текущей максимальной
+                max_sum = numbers[i] + numbers[j]  # Обновляем максимальную сумму
+                max_pair = (numbers[i], numbers[j]) # Обновляем максимальную пару
                 print(f"Новая максимальная сумма: {max_sum}")
 
 if max_pair:
