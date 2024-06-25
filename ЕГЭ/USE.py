@@ -1,19 +1,21 @@
+# Ввод данных
 n = int(input("Введите количество чисел (n):  "))
 print(f"n = {n}")
-numbers = [] # Создаем пустой список для хранения чисел
+numbers = []
 for i in range(n):
     num = int(input(f"Введите {i+1} число: "))
     print(f"numbers[{i}] = {num}")
-    numbers.append(num)  # Добавляем число в список
+    numbers.append(num)
 
 m = 109 # Задаем значение m
 print(f"m = {m}")
 max_sum = 0
 max_pair = None
 
+# Поиск пары и ее вывод
 for i in range(n):
     for j in range(i+1, n):
-        if numbers[i] > numbers[j] and (numbers[i] + numbers[j]) % m == 0: # Проверяем что numbers[i] > numbers[j] и сумма делится на m
+        if numbers[i] > numbers[j] and (numbers[i] + numbers[j]) % m == 0:
             print(f"Найдена пара: {numbers[i]} {numbers[j]}")
             if max_sum < numbers[i] + numbers[j]:
                 max_sum = numbers[i] + numbers[j]
