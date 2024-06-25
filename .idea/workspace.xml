@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390fd345-6041-4991-b763-c5c5d117ea07" name="Changes" comment="add PZ_9">
+      <change afterPath="$PROJECT_DIR$/ЕГЭ/USE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ15/expenses.db" beforeDir="false" afterPath="$PROJECT_DIR$/PZ15/expenses.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,43 +39,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.11.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.14_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_11_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_11_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_12_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_12_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_13_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_13_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_14_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_15_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PZ_3_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.11.3.executor": "Run",
+    "Python.11.4.executor": "Run",
+    "Python.11_2 (1).executor": "Run",
+    "Python.14_1.executor": "Run",
+    "Python.16_1.executor": "Run",
+    "Python.16_2.executor": "Run",
+    "Python.16_3.executor": "Debug",
+    "Python.17_1.executor": "Run",
+    "Python.17_2.executor": "Run",
+    "Python.PZ_10_1.executor": "Run",
+    "Python.PZ_11_1.executor": "Run",
+    "Python.PZ_11_2.executor": "Run",
+    "Python.PZ_12_1.executor": "Run",
+    "Python.PZ_12_2.executor": "Run",
+    "Python.PZ_13_1.executor": "Run",
+    "Python.PZ_13_2.executor": "Run",
+    "Python.PZ_14_1.executor": "Run",
+    "Python.PZ_15_1.executor": "Run",
+    "Python.PZ_3_2.executor": "Run",
+    "Python.USE.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "two.files.diff.last.used.file": "C:/PyCharm Community Edition 2023.3.1/Yrik/Klimov_Yaroslav_IS-23/PZ15/командировочные_расходы.db"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.16_3">
+}]]></component>
+  <component name="RunManager" selected="Python.USE">
     <configuration name="14_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
@@ -87,28 +91,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ14/14_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Климов Ярослав ИС-23" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ16" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ16/16_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,6 +121,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Климов Ярослав ИС-23" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ17/17_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="17_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
@@ -161,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PZ_15_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="USE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Климов Ярослав ИС-23" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ЕГЭ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ15/PZ_15_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ЕГЭ/USE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.16_3" />
-        <item itemvalue="Python.16_1" />
-        <item itemvalue="Python.14_1" />
-        <item itemvalue="Python.PZ_15_1" />
+        <item itemvalue="Python.USE" />
         <item itemvalue="Python.17_2" />
+        <item itemvalue="Python.17_1" />
+        <item itemvalue="Python.16_3" />
+        <item itemvalue="Python.14_1" />
       </list>
     </recent_temporary>
   </component>
@@ -230,14 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693660283381</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added file PZ_3.pdf">
-      <option name="closed" value="true" />
-      <created>1699889287916</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1699889287916</updated>
     </task>
     <task id="LOCAL-00007" summary="update Pz3">
       <option name="closed" value="true" />
@@ -623,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719212499537</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add PZ_9">
+      <option name="closed" value="true" />
+      <created>1719240328427</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719240328427</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
